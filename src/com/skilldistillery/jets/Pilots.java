@@ -2,7 +2,7 @@ package com.skilldistillery.jets;
 
 import java.util.Random;
 
-public class Pilots {
+public final class Pilots {
 	static Random random = new Random();
 	
 	private Pilot[] pilots = {

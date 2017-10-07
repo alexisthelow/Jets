@@ -13,8 +13,6 @@ public abstract class Aerial {
 		super();
 	}
 
-	
-
 	public Aerial(String model, String nickname, int speedInMPH, int rangeinMI, int price, Pilot pilot) {
 		super();
 		this.model = model;
@@ -26,17 +24,9 @@ public abstract class Aerial {
 	}
 
 
-
+	//gets & sets
 	public String getModel() {
 		return model;
-	}
-
-	public int getSpeedInMPH() {
-		return speedInKMH;
-	}
-
-	public int getRangeinMI() {
-		return rangeInKM;
 	}
 
 	public int getPrice() {
@@ -45,6 +35,18 @@ public abstract class Aerial {
 
 	public String getNickname() {
 		return nickname;
+	}
+
+	public int getSpeedInKMH() {
+		return speedInKMH;
+	}
+
+	public int getRangeInKM() {
+		return rangeInKM;
+	}
+
+	public Pilot getPilot() {
+		return pilot;
 	}
 	
 	
