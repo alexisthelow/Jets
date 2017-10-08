@@ -6,7 +6,7 @@ public class Butterfly extends Aerial {
 		
 	}
 
-	public Butterfly(String model, String nickname, int speedInMPH, int rangeinMI, int price, Pilots pilot) {
+	public Butterfly(String model, String nickname, int speedInMPH, int rangeinMI) {
 		super(model, nickname, speedInMPH, rangeinMI, -1, null);
 	}
 
